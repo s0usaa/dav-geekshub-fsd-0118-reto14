@@ -1,0 +1,44 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+#imagen{
+    background-image: url(../img/pingus.jpeg);
+    width: 60vw;
+    height: 80vh;
+}
+
+.tabla{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background-color: white;
+}
+
+.head{
+    border: outset 3px;
+    width: 40vw;
+    height: 5vh;
+}
+
+td{
+    background-color: lightyellow;
+}
+
+.head{
+    background-color: lightgray;
+    border: outset 2px;
+}
+
+td{
+    border: outset 2px;
+    background-color: lightyellow;
+}
